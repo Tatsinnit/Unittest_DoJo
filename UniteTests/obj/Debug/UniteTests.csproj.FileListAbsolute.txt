@@ -1,1 +1,0 @@
-C:\Dev\Unittest_DoJo\UniteTests\obj\Debug\UniteTests.csprojResolveAssemblyReference.cache

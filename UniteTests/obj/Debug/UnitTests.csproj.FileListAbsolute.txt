@@ -1,8 +1,0 @@
-C:\Dev\Unittest_DoJo\UniteTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
-C:\Dev\Unittest_DoJo\UniteTests\bin\Debug\UniteTests.dll
-C:\Dev\Unittest_DoJo\UniteTests\bin\Debug\UniteTests.pdb
-C:\Dev\Unittest_DoJo\UniteTests\bin\Debug\nunit.framework.dll
-C:\Dev\Unittest_DoJo\UniteTests\bin\Debug\UnitTestLibrary.dll
-C:\Dev\Unittest_DoJo\UniteTests\bin\Debug\UnitTestLibrary.pdb
-C:\Dev\Unittest_DoJo\UniteTests\obj\Debug\UniteTests.dll
-C:\Dev\Unittest_DoJo\UniteTests\obj\Debug\UniteTests.pdb
