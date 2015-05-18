@@ -1,9 +1,9 @@
-﻿using NUnit.Framework;
-using System;
+﻿using System;
+using NUnit.Framework;
 
 namespace UniteTests
 {
-	[TestFixture ()]
+	[TestFixture()]
 	public class Test
 	{
 		private string expectedResult = "";
