@@ -36,9 +36,11 @@
     <Compile Include="Interface\IUnitTestStringLibrary.cs" />
     <Compile Include="UnitTestFastCarLibrary.cs" />
     <Compile Include="Interface\IUnitTestFastCarLibrary.cs" />
+    <Compile Include="Enum\VehicleEnumeration.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Interface\" />
+    <Folder Include="Enum\" />
   </ItemGroup>
 </Project>

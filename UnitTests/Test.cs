@@ -3,17 +3,17 @@ using NUnit.Framework;
 
 namespace UniteTests
 {
-	[TestFixture()]
+	[TestFixture]
 	public class Test
 	{
 		private string expectedResult = "";
 
-		[Test ()]
+		[Test]
 		public void TestCase ()
 		{
 		}
 
-		[TestFixtureSetUp()]
+		[TestFixtureSetUp]
 		public void testsomething()
 		{
 			 expectedResult = "Today is the wonderful day of my life";

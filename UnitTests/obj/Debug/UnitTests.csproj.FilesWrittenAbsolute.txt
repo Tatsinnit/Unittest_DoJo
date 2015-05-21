@@ -1,0 +1,8 @@
+/Users/tatsatmishra/Projects/Unittest_DoJo/UnitTests/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/tatsatmishra/Projects/Unittest_DoJo/UnitTests/bin/Debug/UniteTests.dll.mdb
+/Users/tatsatmishra/Projects/Unittest_DoJo/UnitTests/bin/Debug/UniteTests.dll
+/Users/tatsatmishra/Projects/Unittest_DoJo/UnitTests/obj/Debug/UniteTests.dll
+/Users/tatsatmishra/Projects/Unittest_DoJo/UnitTests/obj/Debug/UniteTests.dll.mdb
+/Users/tatsatmishra/Projects/Unittest_DoJo/UnitTests/bin/Debug/nunit.framework.dll
+/Users/tatsatmishra/Projects/Unittest_DoJo/UnitTests/bin/Debug/UnitTestLibrary.dll
+/Users/tatsatmishra/Projects/Unittest_DoJo/UnitTests/bin/Debug/UnitTestLibrary.dll.mdb
