@@ -12,9 +12,9 @@ namespace UnitTestLibrary
 
 	public enum FordModel
 	{
-		MustangV6,
-		MustangEcoBoost,
-		MustangGT
+		MustangV6 = 1,
+		MustangEcoBoost = 2,
+		MustangGT = 3
 	}
 
 	public enum VehicleHorsePower
