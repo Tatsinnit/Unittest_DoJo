@@ -4,8 +4,8 @@ namespace UnitTestLibrary
 {
 	public interface IUnitTestFastCarLibrary
 	{
-		//string GetKindOfCar(VehicleSpeedEnumeration topSpeed, VehicleHorsePower vehicleHorsePower);
-		//double GetSpeedOfCar(VehicleHorsePower vehicleHorsePower, FordModel model);
+        string GetKindOfCar(int engineType, int vehicleHorsePower);
+		double GetSpeedOfCar(VehicleHorsePower vehicleHorsePower, FordModel model);
 
 		// GetCarIdentification
 		// SpeedLimitOfCar

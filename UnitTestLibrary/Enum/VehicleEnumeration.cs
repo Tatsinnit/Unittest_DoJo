@@ -7,7 +7,7 @@ namespace UnitTestLibrary
 	{
 	    NormalSpeed = 100,
 	    RegularSpeed = 110,
-	    CriticalSpeed = 120	  
+	    CriticalSpeed = 120
 	}
 
 	public enum FordModel

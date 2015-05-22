@@ -2,3 +2,4 @@ C:\Dev\Unittest_DoJo\UnitTestLibrary\bin\Debug\UnitTestLibrary.dll
 C:\Dev\Unittest_DoJo\UnitTestLibrary\bin\Debug\UnitTestLibrary.pdb
 C:\Dev\Unittest_DoJo\UnitTestLibrary\obj\Debug\UnitTestLibrary.dll
 C:\Dev\Unittest_DoJo\UnitTestLibrary\obj\Debug\UnitTestLibrary.pdb
+C:\Dev\Unittest_DoJo\UnitTestLibrary\obj\Debug\UnitTestLibrary.csprojResolveAssemblyReference.cache
