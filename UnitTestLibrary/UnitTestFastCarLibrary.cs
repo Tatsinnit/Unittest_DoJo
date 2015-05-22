@@ -1,6 +1,5 @@
 ﻿using System;
 using System.ComponentModel;
-using System.Diagnostics.Eventing.Reader;
 using System.Reflection;
 
 namespace UnitTestLibrary

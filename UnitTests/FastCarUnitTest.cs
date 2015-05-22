@@ -23,18 +23,18 @@ namespace UniteTests
         ///
         ///</summary>
         [Test]
-        public void PositiveScenarioForChecking_KindOfCar()
+        public void PositiveScenarioForChecking_KindOfCarTest()
         {
             var appObject = new UnitTestFastCarLibrary();
-            appObject.GetKindOfCar(1, 1);
+            var actualResult = appObject.GetKindOfCar(1, 1);
 
-            Assert.AreNotEqual("Say Wat?", appObject.GetKindOfCar(1, 1));
+			Assert.AreNotEqual("Say Wat?", actualResult);
         }
 
         [TestCase(1, 1, Result = "So you got => MustangV6 of horse power 300 hp @ 6500 with engineType 3.7L Ti-VCT V-6 Engine")]
         [TestCase(2, 2, Result = "So you got => MustangEcoBoost of horse power 310 @ 5500 (93-octane fuel) with engineType 2.3L GTDI I-4 Engine")]
         [TestCase(3, 3, Result = "So you got => MustangGT of horse power 310 @ 5500 (93-octane fuel) with engineType 2.3L GTDI I-4 Engine")]
-        public string PositiveScenarioForChecking_KindOfCar(int a, int b)
+        public string PositiveScenarioForChecking_KindOfCarTestCases(int a, int b)
         {
             var appObject = new UnitTestFastCarLibrary();
             var actualResult = appObject.GetKindOfCar(a, b);
