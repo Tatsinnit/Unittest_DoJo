@@ -18,7 +18,7 @@ namespace UniteTests
         
         }
         /// <summary>
-        ///A test for combineArrayStringWithSpace
+        ///
         ///</summary>
         /// 
         [Test]
@@ -31,6 +31,17 @@ namespace UniteTests
             Assert.AreNotEqual("Say Wat?", appObject.GetKindOfCar(1, 1));
         }
 
+        /// <summary>
+        ///
+        ///</summary>
+        /// 
+        [Test]
+        public void NegativeScenarioForChecking_KindOfCar()
+        {
+            UnitTestLibrary.UnitTestFastCarLibrary appObject = new UnitTestLibrary.UnitTestFastCarLibrary();
+            var actualResult = appObject.GetKindOfCar(1, 2);
 
+            Assert.AreEqual("Say Wat?", actualResult);
+        }
     }
 }
