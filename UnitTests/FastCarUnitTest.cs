@@ -1,5 +1,6 @@
 ﻿using System;
 using NUnit.Framework;
+using UnitTestLibrary;
 
 namespace UniteTests
 {
@@ -20,12 +21,11 @@ namespace UniteTests
         /// <summary>
         ///
         ///</summary>
-        /// 
         [Test]
         public void PossitiveScenarioForChecking_KindOfCar()
         {
 
-            UnitTestLibrary.UnitTestFastCarLibrary appObject = new UnitTestLibrary.UnitTestFastCarLibrary();
+            var appObject = new UnitTestFastCarLibrary();
             appObject.GetKindOfCar(1, 1);
 
             Assert.AreNotEqual("Say Wat?", appObject.GetKindOfCar(1, 1));
@@ -34,14 +34,35 @@ namespace UniteTests
         /// <summary>
         ///
         ///</summary>
-        /// 
         [Test]
         public void NegativeScenarioForChecking_KindOfCar()
         {
-            UnitTestLibrary.UnitTestFastCarLibrary appObject = new UnitTestLibrary.UnitTestFastCarLibrary();
+            var appObject = new UnitTestFastCarLibrary();
             var actualResult = appObject.GetKindOfCar(1, 2);
 
             Assert.AreEqual("Say Wat?", actualResult);
         }
+
+        /// <summary>
+        ///
+        ///</summary>
+        [Test]
+        public void PostiveScenarioForChecking_SpeedOfCar()
+        {
+            var appObject = new UnitTestFastCarLibrary();
+            var actualResult = appObject.GetSpeedOfCar(100);
+
+            Assert.AreEqual(VehicleSpeedEnumeration.NormalSpeed, actualResult);
+        }
+
+        [Test]
+        public void NegativeScenarioForChecking_SpeedOfCar()
+        {
+            var appObject = new UnitTestFastCarLibrary();
+            var actualResult = appObject.GetSpeedOfCar(120);
+
+            Assert.AreNotEqual(VehicleSpeedEnumeration.NormalSpeed, actualResult);
+        }
+
     }
 }

@@ -29,9 +29,11 @@ namespace UnitTestLibrary
 	        return "Say Wat?";
 	    }
 
-        public double GetSpeedOfCar(VehicleHorsePower vehicleHorsePower, FordModel model)
+        public VehicleSpeedEnumeration GetSpeedOfCar(int speedOfCar)
         {
-	        throw new NotImplementedException();
+            var speed = (VehicleSpeedEnumeration) Enum.Parse(typeof(VehicleSpeedEnumeration), speedOfCar.ToString());
+
+            return speed;
         }
 
         private static string GetEnumDescription<TEnum>(int value)
