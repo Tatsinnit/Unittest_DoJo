@@ -28,6 +28,16 @@ I have realised that sometimes its interesting to refactor functions or rather r
 
 There are Constructive Test Cases, Destructive test cases or sometime Forensic test cases, all in all unit test journey is very exciting if you are ready to enjoy the journey rather than rushing to deliver “something” :)
 
+## Sample scenario
+
+A sample scenario which we tried here is that, Given Mustang in the category of fast cars, how can we find the “kind of car when speed is provided”, “Kind of car when Horse power of the car is provided” and at one point find the “Kind of car when speed and horse power both are supplied”.
+
+Quick story: Let’s say developer bob was a developer and super amazing so his code never needed any unit-tests (which was purely his opinion). So he wrote a class: “UnitTestFastCarLibrary” which was written first and then years latter a developer wanted to seal that class from any additional behaviour by writing tests around bob’s written class. (Lets explore the obvious issues we can find out)
+
+Example 2: Years latter a Business analyst analysed the system and came out with much analysed and broken down requirements for the developer, developer bob have implemented same class but this time in a different way as “TestFirstFastCar.cs” lets explore what are the obvious improvements and what can we learn from his experience and how many factors come into play for the better understanding of the software-engineering as whole.
+
+
+
  Reference:
 
 [1] : http://blog.stevensanderson.com/2009/08/24/writing-great-unit-tests-best-and-worst-practises/
