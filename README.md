@@ -14,7 +14,7 @@ Just provide a playing field for getting a feel for the Journey to write unit te
 
 * One way which I like to see at UnitTests is: “Its’ a contract between function or method and its output.” & any new method should always do one thing and only one thing.
 
-It’s overwhelmingly easy to write bad unit tests that add very little value to a project while inflating the cost of code changes astronomically. Does that sound agile to you? [1]    (I found this interesting blog statement recently and I have attached it in my reference section below.)
+It’s overwhelmingly easy to write bad unit tests that add very little value to a project while inflating the cost of code changes astronomically. Does that sound agile to you? [1]    ***I found this interesting blog statement recently and I have attached it in my reference section below.***
 
 ![Image is taken from reference 1 mentioned below](https://github.com/Tatsinnit/Unittest_DoJo/blob/master/UnitTests/image-thumb1.png)
 
