@@ -2,7 +2,7 @@
 
 These are Draft notes:
 
-This module is a draft practise module written for DoJo session with Whiteria Polytechnique guys, Intention is to create few discussion idea out of various ways an Idea can be implemented to unit test a code.
+This module is a draft practise module written for DoJo session with whitireia polytechnic guys, Intention is to create few discussion idea out of various ways an Idea can be implemented to unit test a code.
 
 I really like 3 things: Simplicity, readability and independent functions.
 
