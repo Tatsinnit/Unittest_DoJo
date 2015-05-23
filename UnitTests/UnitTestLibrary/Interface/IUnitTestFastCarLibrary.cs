@@ -4,9 +4,6 @@ namespace UnitTestLibrary
 	{
 		string GetKindOfCar(int engineType, int vehicleHorsePower);
         VehicleSpeedEnumeration GetSpeedOfCar(int speedOfCar);
-
-		// GetCarIdentification
-		// SpeedLimitOfCar
 	}
 
 }

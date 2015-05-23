@@ -30,19 +30,20 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="nunit.framework">
-      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+      <HintPath>packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FastCarUnitTest.cs" />
     <Compile Include="Test.cs" />
+    <Compile Include="FastCarTestFirstUnitTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UnitTestLibrary\UnitTestLibrary.csproj">
+    <ProjectReference Include="UnitTestLibrary\UnitTestLibrary.csproj">
       <Project>{16E77DCF-D82C-4925-B340-DBC2D272A94C}</Project>
       <Name>UnitTestLibrary</Name>
     </ProjectReference>

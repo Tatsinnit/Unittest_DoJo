@@ -1,0 +1,5 @@
+﻿<Properties StartupItem="UnitTests.csproj">
+  <DisabledProjects>
+    <String>../UnitTestLibrary/UnitTestLibrary.csproj</String>
+  </DisabledProjects>
+</Properties>
