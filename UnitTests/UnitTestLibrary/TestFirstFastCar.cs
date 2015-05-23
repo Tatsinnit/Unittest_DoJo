@@ -24,7 +24,7 @@ namespace UnitTestLibrary
 			return carName;
 		}
 
-		public string KindOfCarBasedOnHorsePower(Double speed, String horsePower)
+		public string KindOfCarBasedOnHorsePower(String horsePower)
 		{
 			mustangSpeedHPDictionary = UnitTestLibrary.MustangDictionary.BuildMustangHPDictionary ();
 
