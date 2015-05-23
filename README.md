@@ -14,7 +14,7 @@ Just provide a playing field for getting a feel for the Journey to write unit te
 
 * One way which I like to see at UnitTests is: “Its’ a contract between function or method and its output.” & any new method should always do one thing and only one thing.
 
-It’s overwhelmingly easy to write bad unit tests that add very little value to a project while inflating the cost of code changes astronomically. Does that sound agile to you?
+It’s overwhelmingly easy to write bad unit tests that add very little value to a project while inflating the cost of code changes astronomically. Does that sound agile to you? [1]
 
 To my understanding TDD is very important to find Design flows which can be identified at the very early stage of your code cycle and can be fixed.
 
@@ -26,4 +26,8 @@ I have realised that sometimes its interesting to refactor functions or rather r
 
 There are Constructive Test Cases, Destructive test cases or sometime Forensic test cases, all in all unit test journey is very exciting if you are ready to enjoy the journey rather than rushing to deliver “something” :)
 
- 
+ Reference:
+
+[1] : http://blog.stevensanderson.com/2009/08/24/writing-great-unit-tests-best-and-worst-practises/
+
+
