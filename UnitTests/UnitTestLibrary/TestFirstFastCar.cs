@@ -14,7 +14,7 @@ namespace UnitTestLibrary
 
 		public string KindOfCarBasedOnSpeed(Double speed)
 		{
-			mustangSpeedDictionary = UnitTestLibrary.MustangDictionary.BuildMustandSpeedDictionary();
+			mustangSpeedDictionary = UnitTestLibrary.MustangDictionary.BuildMustangSpeedDictionary();
 
 			var carName = "";
 

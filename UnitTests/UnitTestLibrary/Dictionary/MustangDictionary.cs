@@ -5,7 +5,7 @@ namespace UnitTestLibrary
 {
 	public class MustangDictionary
 	{
-		public static Dictionary<double, string> BuildMustandSpeedDictionary()
+		public static Dictionary<double, string> BuildMustangSpeedDictionary()
 		{
 			Dictionary<double, string> myDictionary = new Dictionary<double, string>();
 			myDictionary.Add (100.00, "MustangGT");
