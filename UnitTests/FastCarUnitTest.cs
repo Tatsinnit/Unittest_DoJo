@@ -1,5 +1,4 @@
-﻿using System;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using UnitTestLibrary;
 
 namespace UniteTests
@@ -33,7 +32,7 @@ namespace UniteTests
             var actualResult = appObject.GetKindOfCar(1, 1);
 
             // ASSERT
-			Assert.AreNotEqual("Say Wat?", actualResult);
+            Assert.AreNotEqual("Say Wat?", actualResult);
         }
 
         [TestCase(1, 1, Result = "So you got => MustangV6 of horse power 300 hp @ 6500 with engineType 3.7L Ti-VCT V-6 Engine")]
