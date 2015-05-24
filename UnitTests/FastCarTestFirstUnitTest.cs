@@ -12,7 +12,7 @@ namespace UniteTests
 		}
 
 		[Test]
-		public void Positive_KindOfCarUniTest()
+		public void Positive_KindOfCarUnitTest()
 		{
 			// Given That Speed = 100.00 && HorsePower = 435 @ 6500 (93-octane fuel)
 			var expectedResult = "MustangGT";
@@ -24,7 +24,7 @@ namespace UniteTests
 		}
 
 		[Test]
-		public void Positive_KindOfCarUniTestBasedOnHP()
+		public void Positive_KindOfCarUnitTestBasedOnHP()
 		{
 			// Given That Speed = 100.00 && HorsePower = 435 @ 6500 (93-octane fuel)
 			var expectedResult = "MustangGT";
@@ -35,6 +35,27 @@ namespace UniteTests
 			Assert.AreEqual(expectedResult, actualresultObtained);
 		}
 
+        [Test]
+        public void Negative_ANonexistentEngineTypeDoesNotError()
+        {
+            // TODO
+            /*
+             * 
+             * SETUP
+             * 
+             * 
+             * ACT
+             * 
+             * 
+             * ASSERT
+             */
+        }
+
+        [Test]
+        public void Negative_ANonexistentHorsePowerDoesNotError()
+        {
+            // TODO
+        }
 	}
 }
 
