@@ -14,9 +14,10 @@ namespace UniteTests
         }
 
         [TestFixtureSetUp]
-        public void testsomething()
+        public void BeforeAll()
         {
-        
+            // Here we can define and/or assign objects, properties etc that will be
+            // setup once before all the tests are run.
         }
 
         /// <summary>
@@ -25,9 +26,13 @@ namespace UniteTests
         [Test]
         public void PositiveScenarioForChecking_KindOfCarTest()
         {
+            // SETUP
             var appObject = new UnitTestFastCarLibrary();
+
+            // ACT
             var actualResult = appObject.GetKindOfCar(1, 1);
 
+            // ASSERT
 			Assert.AreNotEqual("Say Wat?", actualResult);
         }
 
