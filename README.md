@@ -9,7 +9,7 @@ No code is bad code until proven bad. It’s very interesting to notice the thou
 
 # Intention
 
-We want to provide to you a playing field for getting the feel for the journey of writing unit tests and the benefits they provide in the real world of software development. Learning the mechanics of unit testing can take time but learning and understanding the thought process that goes into writing unit tests is simple and key.
+We want to provide to you a playing field in which you can get a feel for the unit testing journey and the benefits it provides in the real world of software development. Learning the mechanics of unit testing can take time but learning and understanding the thought process that goes into writing unit tests is simple and key.
 
 One thought we’d like to share when thinking about unit tests: They’re a contract between a function or method and its output. Any new method should always do one thing and one thing only; a test should test that one thing. A discovery we’ve made along the path of embracing unit tests is that the more you think about unit testing as a major part of your work and think about it as much as solving the problem, the better your code becomes. The reason for that is simple: Bad code is hard to test; however, good code is easy to test. The more you think about how you’re going to test your code, or even better write a test before you write the code, the more you’ll think about structuring the code in an open/closed way with obvious dependencies, and units that have single responsibilities.
 
