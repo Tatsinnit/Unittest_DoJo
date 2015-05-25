@@ -35,7 +35,7 @@ Scenario 1: Let’s say Bob was a developer and super amazing so his code didn�
 
 Scenario 2: Years later a Business Analyst analysed the system and came out with a lot of broken down requirements for the developer, Bob has implemented the same class but this time in a different way, “TestFirstFastCar.cs” where he wrote the code test first. Explore what the improvements are, what we can learn from his experience and how many factors came into play, for a better understanding of his software engineering process.
 
-*Further pointers/objectives *
+**Further pointers/objectives**
 * There are some failing tests in the solution, try fixing these
 * There are some empty test cases, try implementing these
 * Think of some further useful test cases and implement them
